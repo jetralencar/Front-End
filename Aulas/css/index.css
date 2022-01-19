@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html, body{
+    height: 100%;
+}
+.center{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #3f3f77;
+}
+.center>.header{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.header>h3{
+    font-size: 14px;
+}
+.menu a{
+    display: block;
+    width: 200px;
+    padding: 10px;
+    color: white;
+}
+a:hover{
+    background-color: #8585c5;
+    text-decoration: underline;
+}
